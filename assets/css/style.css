@@ -1,0 +1,540 @@
+/* global */
+
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1600px;
+    }
+}
+
+html{
+    letter-spacing: 0px;
+    font-family: "Almarai" , sans-serif !important;
+}
+
+body{
+    overflow-x: hidden;
+     font-family: "Almarai" , sans-serif;
+     line-height: 1.6;
+     
+}
+
+
+
+
+.main-header{
+    height: 100vh;
+    background: url('../images/bg.jpg');
+    background-position: bottom;
+
+}
+
+
+/* navbar*/
+
+
+.main-header .navbar-nav .nav-link{
+    color: #242426;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.nav-item.active{
+    color: transparent;
+    background: linear-gradient(182.24deg, #A5CD39 -208.58%, #84C43F -134.24%, #51B748 -32.5%, #379D43 6.63%, #1B813D 57.5%, #0A6F39 104.46%, #046938 139.68%);
+}
+
+.main-header .navbar-nav .main-btn , .main-btn{
+    color: #fff;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 24px;
+    background: linear-gradient(182.24deg, #A5CD39 -208.58%, #84C43F -134.24%, #51B748 -32.5%, #379D43 6.63%, #1B813D 57.5%, #0A6F39 104.46%, #046938 139.68%);
+    border: none;
+}
+
+.main-header .navbar-nav .main-btn:hover{
+    color: #fff !important;
+    border: none;
+  
+    
+
+}
+
+.centerd{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.content-box h1{
+
+    font-size: 56px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    color: #41803D;
+
+}
+
+
+.content-box p{
+
+    font-size: 20px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 600;
+    color: #7CAA6B;
+
+}
+
+
+
+
+/* Features */
+
+.features{
+
+    padding-top:100px ;
+
+}
+
+
+.features .card{
+    border: none;
+    font-family: 'Almarai', sans-serif; ;
+}
+
+.features .card .features-icon {
+    width: 48px;
+}
+
+.features .card .card-body {
+    padding-top:24px ;
+}
+
+
+.features .card .card-body .card-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;    
+}
+
+.features .card .card-body .card-text {
+    font-size:14px;
+    color: #333336;
+}
+
+
+
+
+
+
+
+/* about */
+
+.about{
+    padding-top:140PX ;
+    font-family: "Almarai",sans-serif;
+
+}
+
+
+
+.about .breif .company-logo{
+    height: 60px;
+
+}
+
+.about .breif .breif-title{
+    font-size: 24px;
+    font-weight: 600;
+    
+    
+}
+
+
+
+.image-container{
+    width: 100%;
+    height: 370px;    
+    max-width: 100%;
+    max-height:370px;
+    overflow: hidden;
+    border-radius: 4px;
+    
+}
+
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+/*services*/
+
+.services{
+    font-family: "Almarai" , sans-serif;
+    background-color: #F0F8E9;
+    margin: 140px 0 ;
+    padding: 48px 0;
+}
+
+.services .services-box {
+    margin-top:80px ;
+}
+
+.services .services-box .card {
+    height: 100%;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 28px rgba(5, 91, 49, 0.05);
+    border-radius: 8px;
+    padding: 48px 0 ;
+    
+    transition: all 0.4s  ease-in-out ;
+    
+}
+
+.services .services-box .card:hover {
+
+    /* box-shadow: 0px 16px 28px rgba(5, 91, 49, 0.1); */
+   
+}
+
+.services .services-box .card:hover{
+    transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -webkit-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    
+    z-index: 1000;
+    box-shadow: 0px 16px 28px rgba(5, 91, 49, 0.1);
+   
+}
+
+
+
+
+.services .services-box .card img {
+height: 56px;
+}
+
+
+
+.services .services-box .card .card-body .card-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color:#7F8185;
+
+    }
+
+
+
+
+
+
+
+
+/* our products */
+
+.services-box{
+    position: relative;
+    z-index: 1000;
+}
+
+.services-box::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100px ;
+    height: 100px;
+    top: -10%;
+    right:5%;
+    background-image:url('../images/right-icon.png') ;
+    z-index: 0;
+}
+
+.services-box::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 100px ;
+    height: 100px;
+    bottom: -8%;
+    left:6%;
+    background-image:url('../images/left-icon.png') ;
+    z-index:-1;
+}
+.products-box .item{
+    padding: 28px;
+}
+.products-box .item .card{
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 28px rgba(5, 91, 49, 0.05);
+    border-radius: 8px;
+}
+
+.products-box .item .card .card-text{
+
+    font-size: 14px;
+
+}
+
+.products-box .item .card .card-text{
+    min-height: calc( 3 * 1.6 * 14px );
+}
+
+
+
+
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    left:100%
+    ;
+    top: 40%;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right:100%
+    ;
+    top: 40%;
+}
+
+
+.owl-nav .owl-prev:hover, .owl-nav .owl-next:hover {
+    background: none !important;
+    outline: none !important;
+    opacity: 1;
+  }
+
+  .owl-nav .owl-prev, .owl-nav .owl-next {
+    outline: none;
+    opacity: 0.6;
+    transition: all .5s ease;
+  }
+
+
+  .owl-theme .owl-dots .owl-dot span{
+       background: rgba(4, 105, 56,0.2);
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span{
+    background: linear-gradient(182.24deg, #A5CD39 -208.58%, #84C43F -134.24%, #51B748 -32.5%, #379D43 6.63%, #1B813D 57.5%, #0A6F39 104.46%, #046938 139.68%);
+}
+
+
+
+/* previous work */
+
+
+.image-gallery{
+    font-family: "Almarai" , sans-serif;
+    background-color: #F0F8E9;
+    margin: 140px 0 ;
+    padding: 48px 0;
+    position: relative;
+}
+
+.past-work .carousel-inner{
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+
+  
+.carousel-item{
+    max-height: 800px;
+    text-align: center;
+
+    min-height: 400px;
+}
+.carousel-item img{
+    max-height: 800px%;
+    
+
+    max-width: 100%;
+
+}
+.carousel-control-next-icon{
+    background-image: url('../images/icons/next.svg');
+}
+
+.carousel-control-prev-icon{
+    background-image: url('../images/icons/prev.svg');
+}
+.carousel-indicators [data-bs-target]{
+    border: none;
+    background: linear-gradient(182.24deg, #A5CD39 -208.58%, #84C43F -134.24%, #51B748 -32.5%, #379D43 6.63%, #1B813D 57.5%, #0A6F39 104.46%, #046938 139.68%); ;
+}
+
+
+
+
+/* contact us */
+
+.form-control:focus{
+    box-shadow:  rgba(27, 129, 61, 25%) 0px 0px 0px 0.25rem  ;
+    border-color:#1B813D;
+}
+
+.media a img{
+    height: 48px;
+
+}
+
+.media a:not(:last-child){
+    margin-left: 24px;
+    
+}
+/* footer */
+
+.main-footer{
+    background-color: #F8F8F8 ;
+    margin-top: 100px;
+}
+
+
+.main-footer img{
+    height: 80px;
+
+}
+
+.main-footer h5{
+    font-size: 18px;
+    color: #333336;
+    font-weight: 600;
+    
+}
+
+.main-footer h5 span{
+    
+    font-size: 18px;
+    color: #41803D;
+    
+}
+
+.main-footer p{
+    color:#707070 ;
+font-weight: 600;
+}
+
+.main-footer p a{
+    
+    color: #707070 !important;
+    font-weight: 700;
+    font-family: "Raleway",sans-serif;
+    
+}
+.main-footer p a:hover{
+    
+    opacity: 0.8;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media qurey */
+
+
+@media screen and (max-width: 600px) {
+    .owl-nav {
+      display: none;
+    }
+
+    .owl-dots {
+      display: none;
+    }
+
+
+    .content-box h1{
+        font-size: 28px;
+    }
+
+    .content-box p{
+        font-size: 1rem;
+    }
+
+
+  }
+
+
+  @media screen and (max-width: 970px) {
+
+    .carousel-item{
+        
+
+    }
+
+    .content-box h1{
+        font-size: 28px;
+    }
+
+
+  }
+
+
+
+  /* chat */
+
+  .wa-chat-box-poweredby{
+      visibility: hidden;
+  }
+
+  .wa-chat-bubble-close-btn {
+    cursor: pointer;
+    position: absolute;
+    left: 20px !important;
+    top: 20px;
+}
