@@ -97,7 +97,7 @@ body{
     font-size: 56px;
     font-family: 'Tajawal', sans-serif;
     font-weight: 700;
-    color: #41803D;
+    color: #fff;
 
 }
 
@@ -107,7 +107,7 @@ body{
     font-size: 20px;
     font-family: 'Almarai', sans-serif;
     font-weight: 600;
-    color: #7CAA6B;
+    color: #fafafa;
 
 }
 
@@ -467,11 +467,30 @@ font-weight: 600;
 
 
 
+.owl-carousel .owl-item img{
 
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+}
 
+.media a{
+    transition:all 0.8s ease-in-out;
+    -webkit-transition:all 0.8s ease-in-out;
+    -moz-transition:all 0.8s ease-in-out;
+    -ms-transition:all 0.8s ease-in-out;
+    -o-transition:all 0.8s ease-in-out;
+}
+.media a:hover{
+    transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
 
-
-
+    
+}
+ 
 
 
 
